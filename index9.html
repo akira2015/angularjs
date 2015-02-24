@@ -9,7 +9,7 @@
   	<div data-ng-app="" data-ng-init="quantity=1;price=5">
       Quantity <input type="number" data-ng-model="quantity">
       Price <input type="number" data-ng-model="price">
-      Totall in dollar : {{quantity * price}}
+      Totall in dollar : {{quantity * price | currency}}
     </div>
   </body>
   </html>
